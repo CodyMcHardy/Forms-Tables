@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+        <link href="stylesforForm.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>F O R M S</h1>
+        <form action="submit.html" method="GET">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <br><br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </fieldset>
+            
+            
+            <br><br>
+            <input type="radio" id="butterfly" name="incects" value="butterfly">
+            <label for="butterfly">Butterfly</label>
+            <input type="radio" id="ladybug" name="incects" value="ladybug">
+            <label for="ladybug">Ladybug</label>
+            <input type="radio" id="walkingStick" name="incects" value="walkingStick">
+            <label for="walkingStick">Walking Stick</label>
+            <br><br>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Sign Up For Newsletter?</label>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
